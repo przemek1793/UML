@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\przedmioty">
+      <UniqueIdentifier>{7edff5ad-1432-4b1d-a191-5c89dcb43401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\postacie">
+      <UniqueIdentifier>{0ec442ec-9aff-4018-a137-3bd4828a79fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zaklecia">
+      <UniqueIdentifier>{011bd17f-88dd-4606-8476-de1aba961945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\przedmioty">
+      <UniqueIdentifier>{c61f9228-394d-434d-8511-a8c3382f9552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zaklecia">
+      <UniqueIdentifier>{f2caf049-d3ce-4eb0-b79a-90faff3769cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\postacie">
+      <UniqueIdentifier>{fbbd2e45-8a87-49fe-9da0-28d660cb9c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\postacie\klasy">
+      <UniqueIdentifier>{6037b57c-e480-4007-8eed-d314602b34c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\postacie\klasy">
+      <UniqueIdentifier>{baeda66e-fa0a-49be-aa4d-9f95878642a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\przedmioty\uzywalne">
+      <UniqueIdentifier>{0e528dff-9fe4-4c65-bfbf-e6049988fad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\przedmioty\ekwipunek">
+      <UniqueIdentifier>{1201d34b-218a-4709-a8d0-cb104f697c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\przedmioty\uzywalne">
+      <UniqueIdentifier>{5a84e701-0916-4ed0-ad80-14296264cc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\przedmioty\ekwipunek">
+      <UniqueIdentifier>{a6818d55-df3f-42b6-8265-e4bbef402a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\przedmioty\ekwipunek\bron">
+      <UniqueIdentifier>{85f6948d-3715-44b2-a04c-dd5555a0cea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\przedmioty\ekwipunek\bron">
+      <UniqueIdentifier>{caebad47-f51c-4a66-b011-045e82485eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\przedmioty\ekwipunek\zbroja">
+      <UniqueIdentifier>{8bcd37d7-8131-4ddf-ba33-499f878abfff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\przedmioty\ekwipunek\zbroja">
+      <UniqueIdentifier>{bec1189e-6e0d-4c22-a654-243e187d2db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\postacie\przeciwnicy">
+      <UniqueIdentifier>{8777b930-9b54-4c4e-a431-95479419af91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\postacie\przciwnicy">
+      <UniqueIdentifier>{471fb14f-5cab-4af9-8d67-076494d8fc9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bohater.cpp">
+      <Filter>Source Files\postacie</Filter>
+    </ClCompile>
+    <ClCompile Include="czar.cpp">
+      <Filter>Source Files\zaklecia</Filter>
+    </ClCompile>
+    <ClCompile Include="kulaognia.cpp">
+      <Filter>Source Files\zaklecia</Filter>
+    </ClCompile>
+    <ClCompile Include="leczenie.cpp">
+      <Filter>Source Files\zaklecia</Filter>
+    </ClCompile>
+    <ClCompile Include="postac.cpp">
+      <Filter>Source Files\postacie</Filter>
+    </ClCompile>
+    <ClCompile Include="przedmiot.cpp">
+      <Filter>Source Files\przedmioty</Filter>
+    </ClCompile>
+    <ClCompile Include="mag.cpp">
+      <Filter>Source Files\postacie\klasy</Filter>
+    </ClCompile>
+    <ClCompile Include="wojownik.cpp">
+      <Filter>Source Files\postacie\klasy</Filter>
+    </ClCompile>
+    <ClCompile Include="ekwipunek.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek</Filter>
+    </ClCompile>
+    <ClCompile Include="mikstury.cpp">
+      <Filter>Source Files\przedmioty\uzywalne</Filter>
+    </ClCompile>
+    <ClCompile Include="zwoje.cpp">
+      <Filter>Source Files\przedmioty\uzywalne</Filter>
+    </ClCompile>
+    <ClCompile Include="ZwyklyMiecz.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\bron</Filter>
+    </ClCompile>
+    <ClCompile Include="bron.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\bron</Filter>
+    </ClCompile>
+    <ClCompile Include="Topor.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\bron</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zbroja.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClCompile>
+    <ClCompile Include="Szata.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClCompile>
+    <ClCompile Include="SkorzanaZbroja.cpp">
+      <Filter>Source Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClCompile>
+    <ClCompile Include="MniejszeLeczenie.cpp">
+      <Filter>Source Files\zaklecia</Filter>
+    </ClCompile>
+    <ClCompile Include="przeciwnik.cpp">
+      <Filter>Source Files\postacie\przciwnicy</Filter>
+    </ClCompile>
+    <ClCompile Include="szkielet.cpp">
+      <Filter>Source Files\postacie\przciwnicy</Filter>
+    </ClCompile>
+    <ClCompile Include="skrzynia.cpp">
+      <Filter>Source Files\postacie\przciwnicy</Filter>
+    </ClCompile>
+    <ClCompile Include="SzkieletMag.cpp">
+      <Filter>Source Files\postacie\przciwnicy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bohater.h">
+      <Filter>Header Files\postacie</Filter>
+    </ClInclude>
+    <ClInclude Include="czar.h">
+      <Filter>Header Files\zaklecia</Filter>
+    </ClInclude>
+    <ClInclude Include="kulaognia.h">
+      <Filter>Header Files\zaklecia</Filter>
+    </ClInclude>
+    <ClInclude Include="leczenie.h">
+      <Filter>Header Files\zaklecia</Filter>
+    </ClInclude>
+    <ClInclude Include="postac.h">
+      <Filter>Header Files\postacie</Filter>
+    </ClInclude>
+    <ClInclude Include="przedmiot.h">
+      <Filter>Header Files\przedmioty</Filter>
+    </ClInclude>
+    <ClInclude Include="mag.h">
+      <Filter>Header Files\postacie\klasy</Filter>
+    </ClInclude>
+    <ClInclude Include="wojownik.h">
+      <Filter>Header Files\postacie\klasy</Filter>
+    </ClInclude>
+    <ClInclude Include="ekwipunek.h">
+      <Filter>Header Files\przedmioty\ekwipunek</Filter>
+    </ClInclude>
+    <ClInclude Include="mikstury.h">
+      <Filter>Header Files\przedmioty\uzywalne</Filter>
+    </ClInclude>
+    <ClInclude Include="zwoje.h">
+      <Filter>Header Files\przedmioty\uzywalne</Filter>
+    </ClInclude>
+    <ClInclude Include="ZwyklyMiecz.h">
+      <Filter>Header Files\przedmioty\ekwipunek\bron</Filter>
+    </ClInclude>
+    <ClInclude Include="Topor.h">
+      <Filter>Header Files\przedmioty\ekwipunek\bron</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zbroja.h">
+      <Filter>Header Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClInclude>
+    <ClInclude Include="Szata.h">
+      <Filter>Header Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClInclude>
+    <ClInclude Include="SkorzanaZbroja.h">
+      <Filter>Header Files\przedmioty\ekwipunek\zbroja</Filter>
+    </ClInclude>
+    <ClInclude Include="MniejszeLeczenie.h">
+      <Filter>Header Files\zaklecia</Filter>
+    </ClInclude>
+    <ClInclude Include="bron.h">
+      <Filter>Header Files\przedmioty\ekwipunek\bron</Filter>
+    </ClInclude>
+    <ClInclude Include="skrzynia.h">
+      <Filter>Header Files\postacie\przeciwnicy</Filter>
+    </ClInclude>
+    <ClInclude Include="szkielet.h">
+      <Filter>Header Files\postacie\przeciwnicy</Filter>
+    </ClInclude>
+    <ClInclude Include="SzkieletMag.h">
+      <Filter>Header Files\postacie\przeciwnicy</Filter>
+    </ClInclude>
+    <ClInclude Include="przeciwnik.h">
+      <Filter>Header Files\postacie\przeciwnicy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
