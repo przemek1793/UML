@@ -20,6 +20,7 @@ public:
 	bool PrzesunPostaczPola(postac* const postac1, std::string kierunek);
 	void WybierzCel(postac* const celujacy, postac* const cel);
 	void Mapa1 (bohater* gracz);
+	void Mapa2 (bohater* gracz);
 	void PokazMape(bohater* const gracz);
 	void RuchWrogow(postac* const bohater);
 };

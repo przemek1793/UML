@@ -188,6 +188,23 @@ void Mapa::Mapa1(bohater* gracz)
 	sz2->y = 6;
 }
 
+void Mapa::Mapa2(bohater* gracz)
+{
+	pola1[2][2]->KtoJestNaPolu = gracz;
+	gracz->x = 2;
+	gracz->y = 2;
+	pola1[5][10]->CzyWyjscie = true;
+	szkielet* sz1 = new szkielet(gracz);
+	pola1[9][8]->KtoJestNaPolu = sz1;
+	sz1->x = 9;
+	sz1->y = 8;
+	pola1[3][5]->KtoJestNaPolu = new skrzynia(new ZwyklyMiecz());
+	SzkieletMag* sz2 = new SzkieletMag(gracz);
+	pola1[4][6]->KtoJestNaPolu = sz2;
+	sz2->x = 4;
+	sz2->y = 6;
+}
+
 void Mapa::PokazMape(bohater* const gracz)
 {
 	Pola* const polezpostacia =pola1[gracz->x][gracz->y];
@@ -202,13 +219,16 @@ void Mapa::PokazMape(bohater* const gracz)
 	std::cout << std::endl;
 	for (int j = polezpostacia->y - 4; j < polezpostacia->y + 5; j++)	
 	{
-		if (j < 10)
+		if (!(j < 0 || j>39))
 		{
-			std::cout << j << " ";
-		}
-		else
-		{
-			std::cout << j;
+			if (j < 10)
+			{
+				std::cout << j << " ";
+			}
+			else
+			{
+				std::cout << j;
+			}
 		}
 		for (int i = polezpostacia->x - 4; i < polezpostacia->x + 5; i++)
 		{
@@ -250,7 +270,10 @@ void Mapa::PokazMape(bohater* const gracz)
 				}
 			}
 		}
-		std::cout << std::endl;
+		if (!(j < 0 || j>39))
+		{
+			std::cout << std::endl;
+		}
 	}
 }
 
@@ -277,9 +300,13 @@ void Mapa::RuchWrogow(postac* const bohater)
 						}
 						if (wrog1->aggro)
 						{
-							if (wrog1->mag && wrog1->mana>20)
+							if (wrog1->mag)
 							{
-								wrog1->RzucZaklecie(&wrog1->uzywany);
+								int koszmany = wrog1->uzywany.kosztmany;
+								if (koszmany < wrog1->mana)
+								{
+									wrog1->RzucZaklecie(&wrog1->uzywany);
+								}
 							}
 							else
 							{

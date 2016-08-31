@@ -36,9 +36,9 @@ bohater* WyborKlasy(std::string nazwaklasy)
 
 int main()
 {
-	szkielet andrzej{};
 	Mapa map{};
 	bool koniec = false;
+	bool wybranomape = false;
 	std::cout << "Wybierz klase postaci" << std::endl;
 	std::cout << "Dostepne klasy to: mag i wojownik" << std::endl;
 	std::string wybor;
@@ -51,7 +51,26 @@ int main()
 		std::getline(std::cin, wybor);
 		gracz = WyborKlasy(wybor);
 	}
-	map.Mapa1(gracz);
+	while (!wybranomape)
+	{
+		std::cout << "Wybierz numer mapy ktora chcesz wybrac" << std::endl;
+		std::cout << "Obecnie dostepne wybory to 1 i 2" << std::endl;
+		std::getline(std::cin, wybor);
+		switch (atoi(wybor.c_str()))
+		{
+		case 1:
+			map.Mapa1(gracz);
+			wybranomape=true;
+			break;
+		case 2:
+			map.Mapa2(gracz);
+			wybranomape = true;
+			break;
+		default:
+			std::cout << "Wybrano niepoprawny numer mapy" << std::endl;
+			break;
+		}
+	}
 	while (!koniec&& gracz->czyzyje)
 	{
 		Pola* PoleZGraczem = map.pola1[gracz->x][gracz->y];
