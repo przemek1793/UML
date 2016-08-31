@@ -1,29 +1,29 @@
-Przemys³aw Pajestka
+Przemysï¿½aw Pajestka
 
 gra RPG
 
-U¿ytkownik wybiera klasê postaci jak¹ chce graæ, a nastêpnie wybiera jedn¹ z dostêpnych map. Celem gry jest dojœcie ¿ywemu do wyjœcia które 
-znajduje siê na mapie.
+Uï¿½ytkownik wybiera klasï¿½ postaci jakï¿½ chce graï¿½, a nastï¿½pnie wybiera jednï¿½ z dostï¿½pnych map. Celem gry jest dojï¿½cie ï¿½ywemu do wyjï¿½cia ktï¿½re 
+znajduje siï¿½ na mapie.
 
 Klasy:
-postaæ - ogólna klasa wszystkich postaci (gracza i przeciwników)
+postaï¿½ - ogï¿½lna klasa wszystkich postaci (gracza i przeciwnikï¿½w)
 bohater - klasa postaci gracza, dziedziczy po postaci
-mag/wojownik - klasy poszczególnych klas postaci, które dziedzicz¹ po bohaterze
-przeciwnik - ogólna klasa przeciwników, dziedziczy po postaci
-szkielet/szkielet mag - klasy poszczególnych typów przeciwników, dzidzicz¹ po przeciwniku
-skrzynia - klasa skrzyñ z przedmiotami, dziedziczy po przeciwniku
-przedmiot - ogólna klasa przedmiotów które mo¿na znaleŸæ i w³o¿yæ do plecaka
-ekwipunek - ogólna klasa przedmiotów które mo¿na za³o¿yæ, dziedziczy po przedmiocie
-broñ - ogólna klasa broni które mo¿na za³o¿yæ, dziedziczy po ekwipunku
-topór/zwyk³y miecz - klasy poszczególnych broni które dziedzicz¹ po broni
-zbroja- ogólna klasa zbroji które mo¿na za³o¿yæ, dziedziczy po ekwipunku
-SkorzanaZbroja/Szara - klasy poszczególnych zbroji które dziedzicz¹ po zbroji
-mikstury - klasa mikstur które mo¿na zu¿yæ, dziedziczy po przedmiocie
-zwoje - klasa zwojów, które mo¿na zu¿yæ, dziedziczy po przedmiocie
-czar - ogólna klasa czarów
-kulaognia/leczenie/MniejszeLeczenie - klasy poszczególnych czarów, które dziedzicz¹ po klasie czar
-Mapa - klasa mapy, odpowiedzialna tak¿e za przesuwanie gracza, wykonywanie ruchów wrogów i generowanie odpowiedniej mapy, która sk³ada siê z pól
-Pola - klasa poszczególnych pól z których sk³ada siê mapa
+mag/wojownik - klasy poszczegï¿½lnych klas postaci, ktï¿½re dziedziczï¿½ po bohaterze
+przeciwnik - ogï¿½lna klasa przeciwnikï¿½w, dziedziczy po postaci
+szkielet/szkielet mag - klasy poszczegï¿½lnych typï¿½w przeciwnikï¿½w, dzidziczï¿½ po przeciwniku
+skrzynia - klasa skrzyï¿½ z przedmiotami, dziedziczy po przeciwniku
+przedmiot - ogï¿½lna klasa przedmiotï¿½w ktï¿½re moï¿½na znaleï¿½ï¿½ i wï¿½oï¿½yï¿½ do plecaka
+ekwipunek - ogï¿½lna klasa przedmiotï¿½w ktï¿½re moï¿½na zaï¿½oï¿½yï¿½, dziedziczy po przedmiocie
+broï¿½ - ogï¿½lna klasa broni ktï¿½re moï¿½na zaï¿½oï¿½yï¿½, dziedziczy po ekwipunku
+topï¿½r/zwykï¿½y miecz - klasy poszczegï¿½lnych broni ktï¿½re dziedziczï¿½ po broni
+zbroja- ogï¿½lna klasa zbroji ktï¿½re moï¿½na zaï¿½oï¿½yï¿½, dziedziczy po ekwipunku
+SkorzanaZbroja/Szara - klasy poszczegï¿½lnych zbroji ktï¿½re dziedziczï¿½ po zbroji
+mikstury - klasa mikstur ktï¿½re moï¿½na zuï¿½yï¿½, dziedziczy po przedmiocie
+zwoje - klasa zwojï¿½w, ktï¿½re moï¿½na zuï¿½yï¿½, dziedziczy po przedmiocie
+czar - ogï¿½lna klasa czarï¿½w
+kulaognia/leczenie/MniejszeLeczenie - klasy poszczegï¿½lnych czarï¿½w, ktï¿½re dziedziczï¿½ po klasie czar
+Mapa - klasa mapy, odpowiedzialna takï¿½e za przesuwanie gracza, wykonywanie ruchï¿½w wrogï¿½w i generowanie odpowiedniej mapy, ktï¿½ra skï¿½ada siï¿½ z pï¿½l
+Pola - klasa poszczegï¿½lnych pï¿½l z ktï¿½rych skï¿½ada siï¿½ mapa
 
-Diagramy znajduj¹ siê w folderze diagramy.
-Plik exe znajduje siê w folderze Debug i nazywa siê UML-projekt
+Diagramy znajdujï¿½ siï¿½ w folderze diagramy.
+Plik exe znajduje siï¿½ w folderze Debug i nazywa siï¿½ UML-projekt
